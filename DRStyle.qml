@@ -1,34 +1,34 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis styleCategories="AllStyleCategories" simplifyDrawingTol="1" simplifyAlgorithm="0" maxScale="0" version="3.10.1-A Coruña" labelsEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" minScale="1e+08" simplifyDrawingHints="1" simplifyMaxScale="1">
+<qgis version="3.10.1-A Coruña" maxScale="0" labelsEnabled="0" simplifyDrawingHints="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyLocal="1" styleCategories="AllStyleCategories" minScale="1e+08" readOnly="0" hasScaleBasedVisibilityFlag="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <renderer-v2 symbollevels="0" graduatedMethod="GraduatedColor" enableorderby="0" type="graduatedSymbol" forceraster="0" attr="MARGIN">
+  <renderer-v2 symbollevels="0" graduatedMethod="GraduatedColor" forceraster="0" enableorderby="0" attr="MARGIN" type="graduatedSymbol">
     <ranges>
-      <range upper="-0.500000000000000" symbol="0" label="R >50%" render="true" lower="-9.999900000000000"/>
-      <range upper="-0.400000000000000" symbol="1" label="R 40-50%" render="true" lower="-0.500000000000000"/>
-      <range upper="-0.300000000000000" symbol="2" label="R 30-40%" render="true" lower="-0.400000000000000"/>
-      <range upper="-0.200000000000000" symbol="3" label="R 20-30%" render="true" lower="-0.300000000000000"/>
-      <range upper="-0.150000000000000" symbol="4" label="R 15-20%" render="true" lower="-0.200000000000000"/>
-      <range upper="-0.100000000000000" symbol="5" label="R 10-15%" render="true" lower="-0.150000000000000"/>
-      <range upper="-0.050000000000000" symbol="6" label="R 5-10%" render="true" lower="-0.100000000000000"/>
-      <range upper="-0.000100000000000" symbol="7" label="R 0-5%" render="true" lower="-0.050000000000000"/>
-      <range upper="0.000100000000000" symbol="8" label="Tie" render="true" lower="-0.000100000000000"/>
-      <range upper="0.050000000000000" symbol="9" label="D 0-5%" render="true" lower="0.000100000000000"/>
-      <range upper="0.100000000000000" symbol="10" label="D 5-10%" render="true" lower="0.050000000000000"/>
-      <range upper="0.150000000000000" symbol="11" label="D 10-15%" render="true" lower="0.100000000000000"/>
-      <range upper="0.200000000000000" symbol="12" label="D 15-20%" render="true" lower="0.150000000000000"/>
-      <range upper="0.300000000000000" symbol="13" label="D 20-30%" render="true" lower="0.200000000000000"/>
-      <range upper="0.400000000000000" symbol="14" label="D 30-40%" render="true" lower="0.300000000000000"/>
-      <range upper="0.500000000000000" symbol="15" label="D 40-50%" render="true" lower="0.400000000000000"/>
-      <range upper="9.999900000000000" symbol="16" label="D >50%" render="true" lower="0.500000000000000"/>
-      <range upper="10.000000000000000" symbol="17" label="No Data" render="true" lower="9.999900000000000"/>
+      <range lower="-9.999900000000000" label="R >50%" symbol="0" upper="-0.500000000000000" render="true"/>
+      <range lower="-0.500000000000000" label="R 40-50%" symbol="1" upper="-0.400000000000000" render="true"/>
+      <range lower="-0.400000000000000" label="R 30-40%" symbol="2" upper="-0.300000000000000" render="true"/>
+      <range lower="-0.300000000000000" label="R 20-30%" symbol="3" upper="-0.200000000000000" render="true"/>
+      <range lower="-0.200000000000000" label="R 15-20%" symbol="4" upper="-0.150000000000000" render="true"/>
+      <range lower="-0.150000000000000" label="R 10-15%" symbol="5" upper="-0.100000000000000" render="true"/>
+      <range lower="-0.100000000000000" label="R 5-10%" symbol="6" upper="-0.050000000000000" render="true"/>
+      <range lower="-0.050000000000000" label="R 0-5%" symbol="7" upper="-0.000100000000000" render="true"/>
+      <range lower="-0.000100000000000" label="Tie" symbol="8" upper="0.000100000000000" render="true"/>
+      <range lower="0.000100000000000" label="D 0-5%" symbol="9" upper="0.050000000000000" render="true"/>
+      <range lower="0.050000000000000" label="D 5-10%" symbol="10" upper="0.100000000000000" render="true"/>
+      <range lower="0.100000000000000" label="D 10-15%" symbol="11" upper="0.150000000000000" render="true"/>
+      <range lower="0.150000000000000" label="D 15-20%" symbol="12" upper="0.200000000000000" render="true"/>
+      <range lower="0.200000000000000" label="D 20-30%" symbol="13" upper="0.300000000000000" render="true"/>
+      <range lower="0.300000000000000" label="D 30-40%" symbol="14" upper="0.400000000000000" render="true"/>
+      <range lower="0.400000000000000" label="D 40-50%" symbol="15" upper="0.500000000000000" render="true"/>
+      <range lower="0.500000000000000" label="D >50%" symbol="16" upper="9.999900000000000" render="true"/>
+      <range lower="9.999900000000000" label="No Data" symbol="17" upper="10.000000000000000" render="true"/>
     </ranges>
     <symbols>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="0">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="0" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="124,0,20,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -42,15 +42,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="1">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="1" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="160,18,20,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -64,15 +64,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="10">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="10" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="179,182,255,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -86,15 +86,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="11">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="11" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="135,141,254,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -108,15 +108,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="12">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="12" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="68,78,254,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -130,15 +130,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="13">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="13" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="0,11,237,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -152,15 +152,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="14">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="14" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="0,26,199,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -174,15 +174,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="15">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="15" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="0,5,163,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -196,15 +196,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="16">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="16" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="0,4,125,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -218,15 +218,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="17">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="17" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="137,136,137,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -240,15 +240,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="2">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="2" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="202,0,32,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -262,15 +262,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="3">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="3" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="237,27,30,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -284,15 +284,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="4">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="4" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="255,84,87,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -306,15 +306,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="5">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="5" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="255,127,129,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -328,15 +328,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="6">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="6" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="255,170,170,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -350,15 +350,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="7">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="7" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="255,209,209,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -372,15 +372,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="8">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="8" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="180,167,214,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -394,15 +394,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="9">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="9" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="216,218,255,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -416,17 +416,17 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="0">
-        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+      <symbol name="0" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+        <layer pass="0" class="SimpleFill" locked="0" enabled="1">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="color" v="89,112,161,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -440,15 +440,15 @@
           <prop k="style" v="solid"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" type="QString" name="name"/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </source-symbol>
-    <colorramp type="gradient" name="[source]">
+    <colorramp name="[source]" type="gradient">
       <prop k="color1" v="202,0,32,255"/>
       <prop k="color2" v="5,113,176,255"/>
       <prop k="discrete" v="0"/>
@@ -456,43 +456,44 @@
       <prop k="stops" v="0.25;244,165,130,255:0.5;247,247,247,255:0.75;146,197,222,255"/>
     </colorramp>
     <classificationMethod id="EqualInterval">
-      <symmetricMode symmetrypoint="0" astride="0" enabled="0"/>
-      <labelFormat format="%1 - %2 " labelprecision="4" trimtrailingzeroes="1"/>
+      <symmetricMode astride="0" enabled="0" symmetrypoint="0"/>
+      <labelFormat labelprecision="4" trimtrailingzeroes="1" format="%1 - %2 "/>
       <extraInformation/>
     </classificationMethod>
     <rotation/>
     <sizescale/>
   </renderer-v2>
   <customproperties>
+    <property value="enr_desc" key="dualview/previewExpressions"/>
     <property value="0" key="embeddedWidgets/count"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
   <blendMode>0</blendMode>
-  <featureBlendMode>8</featureBlendMode>
+  <featureBlendMode>1</featureBlendMode>
   <layerOpacity>0.8</layerOpacity>
-  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" scaleBasedVisibility="0" minScaleDenominator="0" enabled="0" labelPlacementMethod="XHeight" sizeType="MM" rotationOffset="270" lineSizeType="MM" backgroundAlpha="255" minimumSize="0" penAlpha="255" penWidth="0" penColor="#000000" diagramOrientation="Up" barWidth="5" height="15" opacity="1" backgroundColor="#ffffff" scaleDependency="Area" width="15" sizeScale="3x:0,0,0,0,0,0">
-      <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute color="#000000" label="" field=""/>
+  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+    <DiagramCategory barWidth="5" minimumSize="0" labelPlacementMethod="XHeight" maxScaleDenominator="1e+08" scaleBasedVisibility="0" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" enabled="0" lineSizeType="MM" rotationOffset="270" penColor="#000000" backgroundColor="#ffffff" width="15" backgroundAlpha="255" minScaleDenominator="0" penWidth="0" scaleDependency="Area" sizeType="MM" penAlpha="255" height="15" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0">
+      <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+      <attribute label="" color="#000000" field=""/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings showAll="1" linePlacementFlags="18" priority="0" obstacle="0" zIndex="0" dist="0" placement="1">
+  <DiagramLayerSettings dist="0" showAll="1" obstacle="0" zIndex="0" placement="1" linePlacementFlags="18" priority="0">
     <properties>
       <Option type="Map">
-        <Option value="" type="QString" name="name"/>
+        <Option name="name" value="" type="QString"/>
         <Option name="properties"/>
-        <Option value="collection" type="QString" name="type"/>
+        <Option name="type" value="collection" type="QString"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
   <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
     <activeChecks/>
     <checkConfiguration type="Map">
-      <Option type="Map" name="QgsGeometryGapCheck">
-        <Option value="0" type="double" name="allowedGapsBuffer"/>
-        <Option value="false" type="bool" name="allowedGapsEnabled"/>
-        <Option value="" type="QString" name="allowedGapsLayer"/>
+      <Option name="QgsGeometryGapCheck" type="Map">
+        <Option name="allowedGapsBuffer" value="0" type="double"/>
+        <Option name="allowedGapsEnabled" value="false" type="bool"/>
+        <Option name="allowedGapsLayer" value="" type="QString"/>
       </Option>
     </checkConfiguration>
   </geometryOptions>
@@ -539,7 +540,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="blockid">
+    <field name="COUNTY">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -590,87 +591,87 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias index="0" field="id" name=""/>
-    <alias index="1" field="prec_id" name=""/>
-    <alias index="2" field="enr_desc" name=""/>
-    <alias index="3" field="county_nam" name=""/>
-    <alias index="4" field="of_prec_id" name=""/>
-    <alias index="5" field="county_id" name=""/>
-    <alias index="6" field="blockid" name=""/>
-    <alias index="7" field="DEM" name=""/>
-    <alias index="8" field="REP" name=""/>
-    <alias index="9" field="TOTAL" name=""/>
-    <alias index="10" field="DEM %" name=""/>
-    <alias index="11" field="REP %" name=""/>
-    <alias index="12" field="MARGIN" name=""/>
+    <alias name="" field="id" index="0"/>
+    <alias name="" field="prec_id" index="1"/>
+    <alias name="" field="enr_desc" index="2"/>
+    <alias name="" field="county_nam" index="3"/>
+    <alias name="" field="of_prec_id" index="4"/>
+    <alias name="" field="county_id" index="5"/>
+    <alias name="" field="COUNTY" index="6"/>
+    <alias name="" field="DEM" index="7"/>
+    <alias name="" field="REP" index="8"/>
+    <alias name="" field="TOTAL" index="9"/>
+    <alias name="" field="DEM %" index="10"/>
+    <alias name="" field="REP %" index="11"/>
+    <alias name="" field="MARGIN" index="12"/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <defaults>
-    <default expression="" field="id" applyOnUpdate="0"/>
-    <default expression="" field="prec_id" applyOnUpdate="0"/>
-    <default expression="" field="enr_desc" applyOnUpdate="0"/>
-    <default expression="" field="county_nam" applyOnUpdate="0"/>
-    <default expression="" field="of_prec_id" applyOnUpdate="0"/>
-    <default expression="" field="county_id" applyOnUpdate="0"/>
-    <default expression="" field="blockid" applyOnUpdate="0"/>
-    <default expression="" field="DEM" applyOnUpdate="0"/>
-    <default expression="" field="REP" applyOnUpdate="0"/>
-    <default expression="" field="TOTAL" applyOnUpdate="0"/>
-    <default expression="" field="DEM %" applyOnUpdate="0"/>
-    <default expression="" field="REP %" applyOnUpdate="0"/>
-    <default expression="" field="MARGIN" applyOnUpdate="0"/>
+    <default field="id" expression="" applyOnUpdate="0"/>
+    <default field="prec_id" expression="" applyOnUpdate="0"/>
+    <default field="enr_desc" expression="" applyOnUpdate="0"/>
+    <default field="county_nam" expression="" applyOnUpdate="0"/>
+    <default field="of_prec_id" expression="" applyOnUpdate="0"/>
+    <default field="county_id" expression="" applyOnUpdate="0"/>
+    <default field="COUNTY" expression="" applyOnUpdate="0"/>
+    <default field="DEM" expression="" applyOnUpdate="0"/>
+    <default field="REP" expression="" applyOnUpdate="0"/>
+    <default field="TOTAL" expression="" applyOnUpdate="0"/>
+    <default field="DEM %" expression="" applyOnUpdate="0"/>
+    <default field="REP %" expression="" applyOnUpdate="0"/>
+    <default field="MARGIN" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="prec_id" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="enr_desc" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="county_nam" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="of_prec_id" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="county_id" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="blockid" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="DEM" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="REP" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="TOTAL" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="DEM %" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="REP %" constraints="0" exp_strength="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="MARGIN" constraints="0" exp_strength="0" unique_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="id" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="prec_id" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="enr_desc" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="county_nam" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="of_prec_id" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="county_id" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="COUNTY" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="DEM" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="REP" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="TOTAL" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="DEM %" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="REP %" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" field="MARGIN" notnull_strength="0" exp_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" exp="" field="id"/>
-    <constraint desc="" exp="" field="prec_id"/>
-    <constraint desc="" exp="" field="enr_desc"/>
-    <constraint desc="" exp="" field="county_nam"/>
-    <constraint desc="" exp="" field="of_prec_id"/>
-    <constraint desc="" exp="" field="county_id"/>
-    <constraint desc="" exp="" field="blockid"/>
-    <constraint desc="" exp="" field="DEM"/>
-    <constraint desc="" exp="" field="REP"/>
-    <constraint desc="" exp="" field="TOTAL"/>
-    <constraint desc="" exp="" field="DEM %"/>
-    <constraint desc="" exp="" field="REP %"/>
-    <constraint desc="" exp="" field="MARGIN"/>
+    <constraint exp="" desc="" field="id"/>
+    <constraint exp="" desc="" field="prec_id"/>
+    <constraint exp="" desc="" field="enr_desc"/>
+    <constraint exp="" desc="" field="county_nam"/>
+    <constraint exp="" desc="" field="of_prec_id"/>
+    <constraint exp="" desc="" field="county_id"/>
+    <constraint exp="" desc="" field="COUNTY"/>
+    <constraint exp="" desc="" field="DEM"/>
+    <constraint exp="" desc="" field="REP"/>
+    <constraint exp="" desc="" field="TOTAL"/>
+    <constraint exp="" desc="" field="DEM %"/>
+    <constraint exp="" desc="" field="REP %"/>
+    <constraint exp="" desc="" field="MARGIN"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
     <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+  <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;prec_id&quot;">
     <columns>
-      <column type="actions" width="-1" hidden="1"/>
-      <column type="field" width="-1" name="id" hidden="0"/>
-      <column type="field" width="-1" name="prec_id" hidden="0"/>
-      <column type="field" width="-1" name="enr_desc" hidden="0"/>
-      <column type="field" width="-1" name="county_nam" hidden="0"/>
-      <column type="field" width="-1" name="of_prec_id" hidden="0"/>
-      <column type="field" width="-1" name="county_id" hidden="0"/>
-      <column type="field" width="-1" name="blockid" hidden="0"/>
-      <column type="field" width="-1" name="DEM" hidden="0"/>
-      <column type="field" width="-1" name="REP" hidden="0"/>
-      <column type="field" width="-1" name="TOTAL" hidden="0"/>
-      <column type="field" width="-1" name="DEM %" hidden="0"/>
-      <column type="field" width="-1" name="REP %" hidden="0"/>
-      <column type="field" width="-1" name="MARGIN" hidden="0"/>
+      <column width="-1" type="actions" hidden="1"/>
+      <column name="id" width="-1" type="field" hidden="0"/>
+      <column name="prec_id" width="-1" type="field" hidden="0"/>
+      <column name="enr_desc" width="-1" type="field" hidden="0"/>
+      <column name="county_nam" width="-1" type="field" hidden="0"/>
+      <column name="of_prec_id" width="-1" type="field" hidden="0"/>
+      <column name="county_id" width="-1" type="field" hidden="0"/>
+      <column name="DEM" width="-1" type="field" hidden="0"/>
+      <column name="REP" width="-1" type="field" hidden="0"/>
+      <column name="TOTAL" width="-1" type="field" hidden="0"/>
+      <column name="DEM %" width="-1" type="field" hidden="0"/>
+      <column name="REP %" width="-1" type="field" hidden="0"/>
+      <column name="MARGIN" width="-1" type="field" hidden="0"/>
+      <column name="COUNTY" width="-1" type="field" hidden="0"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -678,10 +679,10 @@
     <fieldstyles/>
   </conditionalstyles>
   <storedexpressions/>
-  <editform tolerant="1">.</editform>
+  <editform tolerant="1">C:/Users/echen/Documents</editform>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath>.</editforminitfilepath>
+  <editforminitfilepath>C:/Users/echen/Documents</editforminitfilepath>
   <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -702,66 +703,68 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="0" name="% OF HD"/>
-    <field editable="1" name="ACRES"/>
-    <field editable="1" name="CO_ABBR"/>
-    <field editable="1" name="CO_NAME"/>
-    <field editable="0" name="DEM"/>
-    <field editable="0" name="DEM %"/>
-    <field editable="0" name="D_% Pop of District"/>
-    <field editable="0" name="D_D-R %"/>
-    <field editable="1" name="FID"/>
-    <field editable="0" name="GOP"/>
-    <field editable="0" name="GOP %"/>
-    <field editable="0" name="MARGIN"/>
-    <field editable="1" name="OBJECTID"/>
-    <field editable="1" name="PERIMETER"/>
-    <field editable="0" name="REP"/>
-    <field editable="0" name="REP %"/>
-    <field editable="1" name="RO"/>
-    <field editable="0" name="Results HD1 Data3_County"/>
-    <field editable="0" name="Results HD1 Data3_D-R %"/>
-    <field editable="1" name="Shape_Area"/>
-    <field editable="1" name="Shape_Leng"/>
-    <field editable="0" name="TOTAL"/>
-    <field editable="1" name="blockid"/>
-    <field editable="1" name="county_id"/>
-    <field editable="1" name="county_nam"/>
-    <field editable="1" name="enr_desc"/>
-    <field editable="1" name="id"/>
-    <field editable="1" name="of_prec_id"/>
-    <field editable="1" name="prec_id"/>
+    <field name="% OF HD" editable="0"/>
+    <field name="ACRES" editable="1"/>
+    <field name="COUNTY" editable="0"/>
+    <field name="CO_ABBR" editable="1"/>
+    <field name="CO_NAME" editable="1"/>
+    <field name="DEM" editable="0"/>
+    <field name="DEM %" editable="0"/>
+    <field name="D_% Pop of District" editable="0"/>
+    <field name="D_D-R %" editable="0"/>
+    <field name="FID" editable="1"/>
+    <field name="GOP" editable="0"/>
+    <field name="GOP %" editable="0"/>
+    <field name="MARGIN" editable="0"/>
+    <field name="OBJECTID" editable="1"/>
+    <field name="PERIMETER" editable="1"/>
+    <field name="REP" editable="0"/>
+    <field name="REP %" editable="0"/>
+    <field name="RO" editable="1"/>
+    <field name="Results HD1 Data3_County" editable="0"/>
+    <field name="Results HD1 Data3_D-R %" editable="0"/>
+    <field name="Shape_Area" editable="1"/>
+    <field name="Shape_Leng" editable="1"/>
+    <field name="TOTAL" editable="0"/>
+    <field name="blockid" editable="1"/>
+    <field name="county_id" editable="1"/>
+    <field name="county_nam" editable="1"/>
+    <field name="enr_desc" editable="1"/>
+    <field name="id" editable="1"/>
+    <field name="of_prec_id" editable="1"/>
+    <field name="prec_id" editable="1"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="% OF HD"/>
-    <field labelOnTop="0" name="ACRES"/>
-    <field labelOnTop="0" name="CO_ABBR"/>
-    <field labelOnTop="0" name="CO_NAME"/>
-    <field labelOnTop="0" name="DEM"/>
-    <field labelOnTop="0" name="DEM %"/>
-    <field labelOnTop="0" name="D_% Pop of District"/>
-    <field labelOnTop="0" name="D_D-R %"/>
-    <field labelOnTop="0" name="FID"/>
-    <field labelOnTop="0" name="GOP"/>
-    <field labelOnTop="0" name="GOP %"/>
-    <field labelOnTop="0" name="MARGIN"/>
-    <field labelOnTop="0" name="OBJECTID"/>
-    <field labelOnTop="0" name="PERIMETER"/>
-    <field labelOnTop="0" name="REP"/>
-    <field labelOnTop="0" name="REP %"/>
-    <field labelOnTop="0" name="RO"/>
-    <field labelOnTop="0" name="Results HD1 Data3_County"/>
-    <field labelOnTop="0" name="Results HD1 Data3_D-R %"/>
-    <field labelOnTop="0" name="Shape_Area"/>
-    <field labelOnTop="0" name="Shape_Leng"/>
-    <field labelOnTop="0" name="TOTAL"/>
-    <field labelOnTop="0" name="blockid"/>
-    <field labelOnTop="0" name="county_id"/>
-    <field labelOnTop="0" name="county_nam"/>
-    <field labelOnTop="0" name="enr_desc"/>
-    <field labelOnTop="0" name="id"/>
-    <field labelOnTop="0" name="of_prec_id"/>
-    <field labelOnTop="0" name="prec_id"/>
+    <field name="% OF HD" labelOnTop="0"/>
+    <field name="ACRES" labelOnTop="0"/>
+    <field name="COUNTY" labelOnTop="0"/>
+    <field name="CO_ABBR" labelOnTop="0"/>
+    <field name="CO_NAME" labelOnTop="0"/>
+    <field name="DEM" labelOnTop="0"/>
+    <field name="DEM %" labelOnTop="0"/>
+    <field name="D_% Pop of District" labelOnTop="0"/>
+    <field name="D_D-R %" labelOnTop="0"/>
+    <field name="FID" labelOnTop="0"/>
+    <field name="GOP" labelOnTop="0"/>
+    <field name="GOP %" labelOnTop="0"/>
+    <field name="MARGIN" labelOnTop="0"/>
+    <field name="OBJECTID" labelOnTop="0"/>
+    <field name="PERIMETER" labelOnTop="0"/>
+    <field name="REP" labelOnTop="0"/>
+    <field name="REP %" labelOnTop="0"/>
+    <field name="RO" labelOnTop="0"/>
+    <field name="Results HD1 Data3_County" labelOnTop="0"/>
+    <field name="Results HD1 Data3_D-R %" labelOnTop="0"/>
+    <field name="Shape_Area" labelOnTop="0"/>
+    <field name="Shape_Leng" labelOnTop="0"/>
+    <field name="TOTAL" labelOnTop="0"/>
+    <field name="blockid" labelOnTop="0"/>
+    <field name="county_id" labelOnTop="0"/>
+    <field name="county_nam" labelOnTop="0"/>
+    <field name="enr_desc" labelOnTop="0"/>
+    <field name="id" labelOnTop="0"/>
+    <field name="of_prec_id" labelOnTop="0"/>
+    <field name="prec_id" labelOnTop="0"/>
   </labelOnTop>
   <widgets>
     <widget name="Gore-Jeffords PCT">
